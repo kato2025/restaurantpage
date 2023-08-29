@@ -1,0 +1,355 @@
+/*!******************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles.css ***!
+  \******************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Carattere&family=Mea+Culpa&family=Niconne&display=swap);
+/*!**********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles.css (1) ***!
+  \**********************************************************************/
+/*Create custom properties*/
+:root {
+  --gold-colour--: rgb(255,215,0);
+  --dark-blue--: rgb(12, 45, 72);
+  --light-blue--: rgb(20, 93, 160);
+  --black-colour--: #000;
+  --heading-font--: 'Carattere', cursive;
+  --content-font--: 'Niconne', cursive;
+  --site-fontSize--: 40px;
+  --input-height--: 30px
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Body*/
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-blue--);
+}
+/*Header*/
+header {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+  background-color: var(--dark-blue--);
+  border-bottom: 1px solid var(--black-colour--);
+}
+header .captionImage {
+  flex-shrink: 2;
+  flex-basis: 200px;
+  margin-bottom: -45px;
+  width: 350px;
+  height: auto;
+}
+.interact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
+  gap: 10px;
+  margin-top: 11px;
+}
+.siteLogo {
+  margin-top: 20px;
+  max-width: 180px;
+}
+.caption {
+  font-family: 'Mea Culpa', cursive;
+  font-size: calc(var(--site-fontSize--) + 5px);
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  color: var(--gold-colour--);
+}
+/*Tabs*/
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  margin-bottom: -2px;
+}
+#home-btn,
+#menu-btn,
+#contact-btn { 
+  margin-top: -20px;
+  padding: 10px 20px 10px 20px;
+  width: 360px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  border-left: 1px solid var(--gold-colour--);
+  border-right: 1px solid var(--gold-colour--);
+  border-top: 1px solid var(--gold-colour--);
+  border-bottom: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-shadow: 1px 1px yellow;
+}
+#home-btn,
+#menu-btn {
+  border-right: 2px solid var(--black-colour--);
+}
+#home-btn::first-letter,
+#menu-btn::first-letter,
+#contact-btn::first-letter {
+  font-size: var(--site-fontSize--);
+}
+a {
+  text-decoration: none;
+  color: var(--black-colour--);
+}
+/*Home tab content*/
+/*Main content*/
+.restaurantDetails,
+.menuDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  color: var(--gold-colour--);
+}
+.restaurantDetails {
+  gap: 10px;
+}
+#mainHeading,
+#cMainHeading {
+  text-align: center;
+  font-family: 'Carattere', cursive;
+  font-size: var(--site-fontSize--);
+}
+#mainHeading::first-letter {
+  font-size: calc(var(--site-fontSize--) + 10px);
+}
+#intro,
+#mIntro {
+  margin: 0px 70px 0px 70px;
+  text-align: justify;
+  font-family: var(--content-font--);
+}
+#intro {
+  font-size: calc(var(--site-fontSize--) - 5px);
+}
+#mIntro {
+  text-align: center;
+  font-size: var(--site-fontSize--);
+}
+/*foods*/
+.foodsSold {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  grid-gap: 38px;
+  padding: 0px 80px 0px 80px;
+}
+.foods {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px 5px 5px;
+  font-size: calc(var(--site-fontSize--) - 20px);
+  border: 5px solid rgb(177, 212, 224);
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px 3px var(--dark-blue--);
+  background-color: var(--dark-blue--);
+}
+.foodDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 5px 5px 5px 5px;
+}
+.foods img,
+.mfoods img {
+  margin: auto;
+  max-width: 210px;
+  height: auto;
+}
+.foodHeading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(var(--site-fontSize--) - 15px);
+  text-align: center;
+}
+.foodline {
+  margin-top: -15px;
+}
+.foodDetails {
+  flex-shrink: 2;
+  margin-top: -22px;
+  font-family: var(--content-font--);
+  font-size: calc(var(--site-fontSize--) - 10px);
+}
+/*Menu tab content*/
+/*Menu*/
+.foodsAvailable {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px 20px 20px 20px;
+}
+.menuDetails {
+  gap: 15px;
+}
+.mfoods {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 360px;
+  height: auto;
+  padding: 20px 10px 20px 10px;
+  font-size: calc(var(--site-fontSize--) - 20px);
+  border: 2px solid rgb(177, 212, 224);
+  border-radius: 99px;
+  box-shadow: 9px 5px 7px 5px orangered;
+  background-color: var(--dark-blue--);
+}
+/*Contact tab content*/
+/*Order form*/
+#cMainHeading {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: var(--site-fontSize--);
+}
+#cMainHeading,
+.headingline {
+  text-align: center;
+  color: var(--gold-colour--);
+}
+#orderForm {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 30px;
+  padding: 30px;
+  padding-top: 15px;
+  font-family: var(--content-font--);
+  color: var(--gold-colour--);
+  border: 5px solid rgb(177, 212, 224);
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px 3px var(--dark-blue--);
+  background-color: var(--dark-blue--);
+}
+#orderForm #fullName,
+#orderForm #email {
+  margin-left: 10px;
+}
+#orderForm label {
+  font-size: calc(var(--site-fontSize--) - 5px);
+}
+#orderForm #foodChoice {
+  margin-left: 23px;
+}
+#orderForm #accompanyingFood,
+#orderForm #delivery {
+  margin-left: 10px;
+}
+#orderForm #fullName,
+#orderForm #email,
+#orderForm #foodChoice,
+#orderForm #accompanyingFood,
+#orderForm #delivery,
+#orderForm #numPlates,
+#orderForm textarea {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#orderForm #fullName,
+#orderForm #email,
+#orderForm #foodChoice,
+#orderForm #accompanyingFood,
+#orderForm #delivery,
+#orderForm #numPlates {
+  width: 300px;
+  height: calc(var(--input-height--) + 5px);
+  font-size: calc(var(--site-fontSize--) - 20px);
+}
+#orderForm #numPlates,
+#orderForm #accompanyingFood,
+#orderForm #delivery,
+#orderForm #foodChoice,
+#orderForm #fullName,
+#orderForm #email {
+  border: 1px solid var(--gold-colour--);
+  border-radius: 8px;
+  background-color: var(--dark-blue--);
+  color: var(--gold-colour--);
+}
+#orderForm #accompanyingFood {
+  margin-left: 25px;
+}
+#orderForm #numPlates,
+#orderForm #delivery,
+#orderForm textarea {
+  width: 268px;
+}
+#orderForm #numPlates {
+  margin-left: 37px;
+}
+#orderForm #delivery {
+  margin-left: 13px;
+}
+#orderForm textarea {
+  margin-left: 3px;
+  height: calc(var(--input-height--) + 50px);
+  font-size: calc(var(--site-fontSize--) - 20px);
+  border-radius: 8px;
+  vertical-align: top;
+  border: 1px solid var(--gold-colour--);
+  background-color: var(--dark-blue--);
+  color: var(--gold-colour--);
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#orderForm button {
+  margin-top: 15px;
+  margin-bottom: -15px;
+  width: 130px;
+  height: calc(var(--input-height--) + 10px);
+  border-radius: 30px;
+  font-size: calc(var(--site-fontSize--) - 20px);
+  color: var(--gold-colour--);
+  background-color: var(--light-blue--);
+}
+#resetBtn {
+  margin-left: 10px;
+}
+#orderForm button:hover {
+  color:rgb(247, 240, 204);
+  background-color:rgb(73, 3, 24);
+}
+/*footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  height: 90px;
+  color: var(--gold-colour--);
+  background-color: var(--dark-blue--);
+}
+.siteLogoFooter {
+  margin-bottom: 10px;
+  width: 80px;
+  height: auto;
+}
+

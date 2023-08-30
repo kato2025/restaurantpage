@@ -127,7 +127,7 @@ a {
 }
 #intro,
 #mIntro {
-  margin: 0px 70px 0px 70px;
+  padding: 0px 85px 0px 85px;
   text-align: justify;
   font-family: var(--content-font--);
 }

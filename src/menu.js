@@ -38,7 +38,7 @@ export function createMenuPage() {
           <div class="foodDescription">
             <p class="foodHeading">Ndoh (6000FCFA)</p>
             <div class="foodline">────── ⋆⋅💖⋅⋆ ─────</div>
-            <p class="foodDetails">🥔 With okani; <br> 🍌 With plantains; <br> 🌾 With rive; <br> 🥑 With Avocado <br> 🌶️ Red peper available.</p>
+            <p class="foodDetails">🥔 With okani; <br> 🍌 With plantains; <br> 🌾 With rice; <br> 🥑 With Avocado <br> 🌶️ Red peper available.</p>
           </div>
         </div>
         <div class="mfoods">
@@ -46,7 +46,7 @@ export function createMenuPage() {
           <div class="foodDescription">
             <p class="foodHeading">Okongobong (6000FCFA)</p>
             <div class="foodline">────── ⋆⋅💖⋅⋆ ─────</div>
-            <p class="foodDetails">🍌 With plantains; <br> 🥔 With okani cocoyams; <br> 🌾 With rive; <br> 🥑 With Avocado <br> 🌶️ Red peper available.</p>
+            <p class="foodDetails">🍌 With plantains; <br> 🥔 With okani cocoyams; <br> 🌾 With rice; <br> 🥑 With Avocado <br> 🌶️ Red peper available.</p>
           </div>
         </div>
         <div class="mfoods">
@@ -54,7 +54,7 @@ export function createMenuPage() {
           <div class="foodDescription">
             <p class="foodHeading">Guava (1500FCFA)</p>
             <div class="foodline">────── ⋆⋅💖⋅⋆ ─────</div>
-            <p class="foodDetails">🥛 Serve as fruit juice; <br> 🍧 Served as smoothy; <br> 🍿 Served as snac; <br> ☕️ Served as tea</p>
+            <p class="foodDetails">🥛 Serve as fruit juice; <br> 🍧 Served as smoothie; <br> 🍿 Served as snac; <br> ☕️ Served as tea</p>
           </div>
         </div>
         <div class="mfoods">
@@ -62,7 +62,7 @@ export function createMenuPage() {
           <div class="foodDescription">
             <p class="foodHeading">Soursop (1500FCFA)</p>
             <div class="foodline">────── ⋆⋅💖⋅⋆ ─────</div>
-            <p class="foodDetails">🥛 Serve as fruit juice; <br> 🍧 Served as smoothy; <br> 🍿 Served as snac; <br> ☕️ Served as tea</p>
+            <p class="foodDetails">🥛 Serve as fruit juice; <br> 🍧 Served as smoothie; <br> 🍿 Served as snac; <br> ☕️ Served as tea</p>
           </div>
         </div>
        </div> 

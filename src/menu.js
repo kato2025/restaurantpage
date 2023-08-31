@@ -54,7 +54,7 @@ export function createMenuPage() {
           <div class="foodDescription">
             <p class="foodHeading">Guava (1500FCFA)</p>
             <div class="foodline">────── ⋆⋅💖⋅⋆ ─────</div>
-            <p class="foodDetails">🥛 Serve as fruit juice; <br> 🍧 Served as smoothie; <br> 🍿 Served as snac; <br> ☕️ Served as tea</p>
+            <p class="foodDetails">🥛 Serve as fruit juice; <br> 🍧 Served as smoothie; <br> 🍿 Served as snack; <br> ☕️ Served as tea</p>
           </div>
         </div>
         <div class="mfoods">
@@ -62,7 +62,7 @@ export function createMenuPage() {
           <div class="foodDescription">
             <p class="foodHeading">Soursop (1500FCFA)</p>
             <div class="foodline">────── ⋆⋅💖⋅⋆ ─────</div>
-            <p class="foodDetails">🥛 Serve as fruit juice; <br> 🍧 Served as smoothie; <br> 🍿 Served as snac; <br> ☕️ Served as tea</p>
+            <p class="foodDetails">🥛 Serve as fruit juice; <br> 🍧 Served as smoothie; <br> 🍿 Served as snack; <br> ☕️ Served as tea</p>
           </div>
         </div>
        </div> 
